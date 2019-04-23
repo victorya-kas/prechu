@@ -1,0 +1,8 @@
+.card-link {
+    text-decoration: none;
+    color: #5094f2;
+    font-weight: 400;
+}
+.card-link:hover {
+    color: #ebbb11;
+}

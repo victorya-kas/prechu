@@ -1,0 +1,26 @@
+.icon {
+    width: 136px;
+    height: 136px;
+    font-size: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-blue {
+    background-color: #5094f2;
+}
+.icon-red {
+    background-color: #d94748;
+}
+.icon-yellow {
+    background-color: #ebbb11;
+}
+
+@media (min-width: 960px) {
+    .icon {
+        font-size: 100px;
+        height: 186px;
+        width: 186px;
+    }
+}

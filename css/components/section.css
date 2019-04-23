@@ -1,0 +1,133 @@
+.section {
+  position: relative;
+}
+.section-hero {
+    padding-top: 22px;
+    overflow: hidden;
+    max-height: 653px;
+}
+.section-background > img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  z-index:-1;
+}
+.section-foreground-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-foreground-body > .section-left {
+  display: none;
+}
+
+.section-foreground-body > .section-right {
+  padding-bottom: 31px;
+}
+
+.section-left > img {
+  object-fit: contain;
+  height: 100%;
+  max-height: 436px;
+}
+
+.section-right-title {
+  padding-bottom: 15px;
+}
+.section-right-subtitle {
+  padding-bottom: 45px;
+}
+.section-shopping-body {
+  display: flex;
+  flex-direction: column;
+}
+.section-title {
+  padding: 35px 0;
+}
+.section-top {
+  display: flex;
+  justify-content: center;
+}
+.section-top > img {
+  max-width: 50%;
+  height: 100%;
+}
+.bottom-title {
+  padding-bottom: 34px;
+  padding-top: 20px;
+}
+.bottom-subtitle {
+  padding-bottom: 46px;
+}
+
+.bottom-subtitle > .text {
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+
+.bottom-title > .title-h2 {
+  text-align: start;
+}
+
+@media (min-width: 480px) {
+
+  .section-foreground-body > .section-left {
+    display: block;
+    width: 40%;
+  }
+
+  .section-foreground-body > .section-right {
+    width: 60%;
+    padding-left: 5%;
+    padding-bottom: 30px;
+  }
+
+}
+
+@media (min-width: 960px) {
+
+  .section-shopping-body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-shopping-body > .section-top {
+    width: 40%;
+    margin-right: 80px;
+  }
+  .section-top > img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .section-hero {
+    margin-bottom: 57px;
+  }
+
+  .section-features {
+    padding-bottom: 91px;
+  }
+
+  .section-shopping {
+    padding-bottom: 62px;
+  }
+
+  .bottom-subtitle > .text {
+    font-size: 15px;
+}
+
+  .section-foreground-body > .section-right {
+    padding-left: 15%;
+  }
+
+  .section-hero:after {
+    content: "";
+    display: block;
+    background-image: url('../../images/hero-bg-border.png');
+    background-repeat: repeat-x;
+    height: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	background-color: #5094f2;
+	padding: 0px 13px;
+	color: white;
+	font-size: 31px;
+	font-weight: 100;
+	border: none;
+}
+.button-mark:before {
+	content: " ";
+	display: inline-block;
+	background-image: url('../../images/check-mark.png');
+	background-repeat: no-repeat;
+	background-color: #5094f2;
+	background-position: 50% 50%;
+	padding: 30px 20px;
+	margin-right: 15px;
+}
+.button:hover  {
+	color: #ebbb11;
+}
+
+@media (min-width: 960px) {
+	.button {
+		font-size: 22px;
+		padding: 0 8px;
+	}
+
+	.button-mark:before {
+		padding: 20px;
+		margin-right: 10px;
+	}
+}

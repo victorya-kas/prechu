@@ -1,0 +1,34 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    color: white;
+  font-size: 18px;
+  background: transparent;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    background-image: url('../../images/button-next.png');
+    display: none;
+    width: 25px;
+    height: 63px;
+    background-size: 25px 63px;
+    right: 5%;
+}
+
+.swiper-button-prev {
+    background-image: url('../../images/button-prev.png');
+    left: 5%;
+}
+
+@media (min-width: 960px) {
+    .swiper-button-next, .swiper-button-prev {
+        display: inline-flex;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}

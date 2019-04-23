@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'prechu';
+  src:  url('fonts/prechu.eot?9lxklt');
+  src:  url('fonts/prechu.eot?9lxklt#iefix') format('embedded-opentype'),
+    url('fonts/prechu.ttf?9lxklt') format('truetype'),
+    url('fonts/prechu.woff?9lxklt') format('woff'),
+    url('fonts/prechu.svg?9lxklt#prechu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'prechu' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-card-icon1:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-card-icon2:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-card-icon3:before {
+  content: "\e902";
+  color: #fff;
+}
