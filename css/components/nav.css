@@ -8,8 +8,8 @@
 }
 .nav-link {
     text-decoration: none;
-    margin: 0 5px;
-    padding: 20px 15px;
+    margin: 5px;
+    padding: 5px 15px;
     color: #a4aead;
     font-size: 20px;
     font-weight: 400;
@@ -41,6 +41,10 @@
     flex-direction: column;
     background-color: ghostwhite;
 }
+
+.nav-link:hover{
+    color: #ebbb11;
+} 
 
 .icon-element {
     height: 6px;
@@ -74,6 +78,7 @@
     }
 
     .nav-link:hover{
+        color: #5094f2;
         border-color:#5c6166;
     } 
     
